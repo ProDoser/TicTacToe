@@ -1,23 +1,54 @@
 .actions {
     text-align: center;
 }
-.ai {
-    background-image: url('./img/ai.jpg');
-}
+
 .container {
-    margin: 50px auto;
-    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+h1, h3{
+    color: #EA0A0A;
+    text-shadow: 1px 1px 2px black, 0 0 0.2em red;
+}
+p{
+    font-weight: bold;
+    color: #EA0A0A;
+    text-shadow: 1px 1px 1px black;
+}
+
+.description{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.field {
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+}
+
 .cell {
     background-color: white;
-    border: 2px solid black;
+    border: 3px solid #EA0A0A;
     float: left;
-    height: 96px;
-    width: 96px;
+    width:32%;
+    height: 32%;
 }
 .cell:hover {
-    background-color: bisque;
+
+    box-shadow:5px 5px 40px 15px #EE1B22 inset;
+}
+.ai {
+    background-image: url('./img/ai.jpg');
+    background-size: 100%;
+}
+.ai:hover{
+    box-shadow: none;
 }
 .player {
     background-image: url('./img/player.jpg');
+    background-size: 100%;
+}
+.player:hover{
+    box-shadow: none;
 }
