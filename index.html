@@ -5,8 +5,9 @@
     <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" type="text/css" href="tik-tak.css">
     <link rel="stylesheet" media="(max-width: 640px)" href="tic-tac-max-640px.css">
-    <link rel="stylesheet" media="(min-width: 640px)" href="tic-tac-min-640px.css">
+    <link rel="stylesheet" media="(min-width: 641px)" href="tic-tac-min-640px.css">
     <link rel="stylesheet" media="(max-height: 700px)" href="tic-tac-max-height-700px.css">
+    <link rel="stylesheet" media="(orientation: portrait)" href="portrait.css">
 </head>
 <body>
 <div class = "container">
@@ -15,17 +16,24 @@
         <p>Try to win by placing three Xs in a row. To place your X simply click on an empty spot.</p>
         <h3>Good luck!</h3>
     </div>
-    <div class="field">
-        <div class="cell" id="0" onclick="move(0, 'player')"></div>
-        <div class="cell" id="1" onclick="move(1, 'player')"></div>
-        <div class="cell" id="2" onclick="move(2, 'player')"></div>
-        <div class="cell" id="3" onclick="move(3, 'player')"></div>
-        <div class="cell" id="4" onclick="move(4, 'player')"></div>
-        <div class="cell" id="5" onclick="move(5, 'player')"></div>
-        <div class="cell" id="6" onclick="move(6, 'player')"></div>
-        <div class="cell" id="7" onclick="move(7, 'player')"></div>
-        <div class="cell" id="8" onclick="move(8, 'player')"></div>
+    <div class="content">
+        <div class="field">
+            <div class="cell" id="0" onclick="move(0, 'player')"></div>
+            <div class="cell" id="1" onclick="move(1, 'player')"></div>
+            <div class="cell" id="2" onclick="move(2, 'player')"></div>
+            <div class="cell" id="3" onclick="move(3, 'player')"></div>
+            <div class="cell" id="4" onclick="move(4, 'player')"></div>
+            <div class="cell" id="5" onclick="move(5, 'player')"></div>
+            <div class="cell" id="6" onclick="move(6, 'player')"></div>
+            <div class="cell" id="7" onclick="move(7, 'player')"></div>
+            <div class="cell" id="8" onclick="move(8, 'player')"></div>
+        </div>
     </div>
+
+</div>
+
+<div id="footer">
+    &copy Leonid Zadorozhnykh 2016
 </div>
 
 <script src="tik_tak_game.js"></script>

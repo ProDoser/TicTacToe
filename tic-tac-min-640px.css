@@ -1,5 +1,13 @@
 .field {
-    margin: 50px auto;
-    width: 500px;
-    height: 500px;
+    width: 50vw;
+    height: 50vw;
+    max-width: 400px;
+    max-height: 400px;
+}
+.cell {
+    border: 2px solid #EA0A0A;
+}
+.cell:hover {
+
+    box-shadow:3px 3px 30px 7px #EE1B22 inset;
 }
